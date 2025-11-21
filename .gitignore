@@ -11,6 +11,7 @@ backend/*.jar
 backend/*.war
 backend/*.iml
 
+<<<<<<< HEAD
 # IDE
 .vscode/
 .idea/
@@ -47,3 +48,32 @@ build/
 
 ### VS Code ###
 .vscode/
+=======
+# IDE / Editor
+.vscode/
+.idea/
+# See 
+https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+>>>>>>> 7ddc8a16bbacfae3dabacdb459760313cb2b915e
